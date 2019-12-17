@@ -1,0 +1,11 @@
+Process 1 needs resource 1 - Resource 1 is allocated to process 1.
+Process 2 needs resource 2 - Resource 2 is allocated to process 2.
+Process 3 needs resource 6 - Resource 6 is allocated to process 3.
+Process 2 needs resource 6 - Process 2 must wait.
+Process 4 needs resource 3 - Resource 3 is allocated to process 4.
+Process 5 needs resource 1 - Process 5 must wait.
+Process 1 releases resource 1 - Resource 1 is allocated to process 5.
+Process 3 needs resource 3 - Process 3 must wait.
+Process 5 releases resource 1 - Resource 1 is now free.
+Process 4 needs resource 2 - Process 4 must wait.
+DEADLOCK DETECTED: Processes 2, 3, 4, and Resources 2, 3, 6, are found in a cycle.
